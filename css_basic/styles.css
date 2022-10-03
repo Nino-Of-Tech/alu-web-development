@@ -1,16 +1,19 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: beige;
 }
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
+    background-color: aliceblue;
 }
 aside {
     width: 1/3;
     flex: 1;
     overflow-y: auto;
+    background-color: brown;
 }
 article {
     flex: 2;
